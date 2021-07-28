@@ -4,6 +4,7 @@ body {
   text-decoration: none;
   display: block;
   margin: 0;
+  padding: 0;
   background-attachment: fixed;
 }
 
@@ -128,6 +129,12 @@ body {
   height: 409px;
   left: 110px;
   top: 1220px;
+}
+.eden {
+  list-style-type: none;
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-size: 18px;
 }
 
 .lefttop {
@@ -320,6 +327,29 @@ body {
   box-sizing: border-box;
   border-radius: 15px 15px 15px 0px;
 }
+.buttonproject1:hover {
+  background-color: inherit;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+  color: #f8f1a8;
+  position: absolute;
+  width: 199px;
+  height: 52px;
+  left: 814px;
+  top: 3281px;
+  border: 3px solid #f8f1a8;
+  box-sizing: border-box;
+  border-radius: 15px 15px 15px 0px;
+  filter: drop-shadow(0px 4px 75px #504d36);
+}
+
+.buttonproject1 a:hover {
+  color: #f8f1a8;
+}
+
 .buttonproject1 a {
   color: #faf4e6;
 }
@@ -409,6 +439,28 @@ body {
 .buttonproject2 a {
   color: #faf4e6;
 }
+
+.buttonproject2:hover {
+  background-color: inherit;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+  color: #f8f1a8;
+  position: absolute;
+  width: 199px;
+  height: 52px;
+  left: 165px;
+  top: 3794px;
+  border: 3px solid #f8f1a8;
+  box-sizing: border-box;
+  border-radius: 15px 15px 0px 15px;
+}
+
+.buttonproject2 a:hover {
+  color: #f8f1a8;
+}
 .naslovprekt3 {
   position: absolute;
   width: 302px;
@@ -468,6 +520,30 @@ body {
 .buttonproject3 a {
   color: #faf4e6;
 }
+
+.buttonproject3:hover {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+  background-color: inherit;
+  color: #f8f1a8;
+
+  position: absolute;
+  width: 199px;
+  height: 52px;
+  left: 812px;
+  top: 4311px;
+
+  border: 3px solid #f8f1a8;
+  box-sizing: border-box;
+  border-radius: 15px 15px 15px 0px;
+}
+
+.buttonproject3 a:hover {
+  color: #f8f1a8;
+}
 .naslovprekt4 {
   position: absolute;
   width: 161px;
@@ -516,6 +592,27 @@ body {
 .buttonproject4 a {
   color: #faf4e6;
 }
+
+.buttonproject4:hover {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+  color: #f8f1a8;
+  position: absolute;
+  width: 199px;
+  height: 52px;
+  left: 163px;
+  top: 4900px;
+  background-color: inherit;
+  border: 3px solid #f8f1a8;
+  box-sizing: border-box;
+  border-radius: 15px 15px 0px 15px;
+}
+.buttonproject4 a:hover {
+  color: #f8f1a8;
+}
 .imgprekt4 {
   position: absolute;
   width: 620.42px;
@@ -551,6 +648,27 @@ body {
 }
 .buttonproject5 a {
   color: #faf4e6;
+}
+
+.buttonproject5:hover {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+  color: #f8f1a8;
+  position: absolute;
+  width: 199px;
+  height: 52px;
+  left: 810px;
+  top: 5442px;
+  background-color: inherit;
+  border: 3px solid #f8f1a8;
+  box-sizing: border-box;
+  border-radius: 15px 15px 15px 0px;
+}
+.buttonproject5 a:hover {
+  color: #f8f1a8;
 }
 .naslovprekt5 {
   position: absolute;
@@ -798,6 +916,7 @@ body {
   left: 908.05px;
   top: 6140px;
 }
+
 .ld {
   position: absolute;
   width: 34.73px;
@@ -806,7 +925,7 @@ body {
   top: 6140px;
 }
 
-.lnsta {
+.insta {
   position: absolute;
   width: 35px;
   height: 34.91px;
@@ -828,4 +947,517 @@ body {
   height: 35px;
   left: 1136px;
   top: 6140px;
+}
+
+@media screen and (max-width: 700px) {
+  .body {
+    position: relativea;
+    margin: none;
+    padding: none;
+    display: block;
+  }
+
+  .text1 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    text-transform: capitalize;
+    left: 24px;
+    top: 120px;
+  }
+
+  .text2 {
+    position: absolute;
+    width: 133px;
+    height: 43px;
+    left: 24px;
+    top: 174px;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 120%;
+    letter-spacing: 0.2em;
+  }
+  .text3 {
+    position: absolute;
+    width: 151px;
+    height: 43px;
+    left: 168px;
+    top: 174px;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 120%;
+  }
+  .imgslika {
+    width: 269px;
+    height: 474px;
+
+    left: 108px;
+    right: 0px;
+    top: 242px;
+  }
+  .imgsenka {
+    width: 269px;
+    height: 474px;
+
+    left: 108px;
+    right: 0px;
+    top: 242px;
+  }
+
+  .buttondownload {
+    position: absolute;
+    width: 110px;
+    height: 38px;
+    left: 20px;
+    top: 262px;
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .naslovwhatido {
+    display: none;
+  }
+
+  .worktables {
+    display: none;
+  }
+
+  .aboutcover {
+    position: absolute;
+    width: 334px;
+    height: 533px;
+    left: 20px;
+    right: 20px;
+    top: 835px;
+    background: rgba(44, 16, 81, 0.4);
+    border-radius: 0px;
+  }
+  .aboutmetext {
+    position: absolute;
+    width: 131px;
+    height: 31px;
+    left: 122px;
+    top: 875px;
+    font-weight: 800;
+    font-size: 26px;
+    line-height: 120%;
+    letter-spacing: 0.05em;
+  }
+
+  .aboutimg {
+    position: absolute;
+    width: 278px;
+    height: 208px;
+    left: 48px;
+    top: 946px;
+    background: url(5R7A0125.jpg);
+    border-radius: 0px;
+  }
+
+  .aboutparagraf {
+    position: absolute;
+    width: 264px;
+    height: 100%;
+    left: 55px;
+    top: 1184px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .tekstproekt {
+    position: absolute;
+    width: 110px;
+    height: 31px;
+    left: 132px;
+    top: 1448px;
+    font-weight: 800;
+    font-size: 26px;
+    line-height: 120%;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+  }
+  .naslovprekt1 {
+    position: absolute;
+    width: 158px;
+    height: 30px;
+    left: 20px;
+    top: 1539px;
+    font-size: 20px;
+    line-height: 150%;
+  }
+  .paragrafprekt1 {
+    position: absolute;
+    width: 194px;
+    height: 64px;
+    left: 20px;
+    top: 1584px;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .imgprekt1 {
+    position: absolute;
+    width: 333.63px;
+    height: 209px;
+    left: 20px;
+    top: 1678px;
+  }
+  .buttonproject1 {
+    position: absolute;
+    width: 140px;
+    height: 40px;
+    left: 214px;
+    top: 1917px;
+    border-radius: 0px 10px 10px 10px;
+    font-size: 16px;
+  }
+
+  .naslovprekt2 {
+    position: absolute;
+    width: 124px;
+    height: 30px;
+    left: 20px;
+    top: 2007px;
+    font-size: 20px;
+    line-height: 150%;
+  }
+  .paragrafprekt2 {
+    position: absolute;
+    width: 194px;
+    height: 64px;
+    left: 20px;
+    top: 2052px;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .imgprekt2 {
+    position: absolute;
+    width: 334px;
+    height: 209.36px;
+    left: 20px;
+    top: 2146px;
+  }
+  .buttonproject2 {
+    position: absolute;
+    width: 140px;
+    height: 40px;
+    left: 214px;
+    top: 2386px;
+    border-radius: 0px 10px 10px 10px;
+    font-size: 16px;
+  }
+
+  .naslovprekt3 {
+    position: absolute;
+    width: 168px;
+    height: 30px;
+    left: 20px;
+    top: 2476px;
+    font-size: 20px;
+    line-height: 150%;
+  }
+  .paragrafprekt3 {
+    position: absolute;
+    width: 194px;
+    height: 64px;
+    left: 20px;
+    top: 2521px;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .imgprekt3 {
+    position: absolute;
+    width: 334px;
+    height: 232.32px;
+    left: 20px;
+    top: 2615.68px;
+  }
+  .buttonproject3 {
+    position: absolute;
+    width: 140px;
+    height: 40px;
+    left: 214px;
+    top: 2878px;
+    border-radius: 0px 10px 10px 10px;
+    font-size: 16px;
+  }
+
+  .naslovprekt4 {
+    position: absolute;
+    width: 90px;
+    height: 30px;
+    left: 20px;
+    top: 2968px;
+    font-size: 20px;
+    line-height: 150%;
+  }
+  .paragrafprekt4 {
+    position: absolute;
+    width: 194px;
+    height: 64px;
+    left: 20px;
+    top: 3013px;
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .imgprekt4 {
+    position: absolute;
+    width: 335.42px;
+    height: 202px;
+    left: 20px;
+    top: 3107px;
+  }
+  .buttonproject4 {
+    position: absolute;
+    width: 140px;
+    height: 40px;
+    left: 214px;
+    top: 3339px;
+    border-radius: 0px 10px 10px 10px;
+    font-size: 16px;
+  }
+
+  .naslovprekt5 {
+    position: absolute;
+    width: 121px;
+    height: 30px;
+    left: 20px;
+    top: 3429px;
+    font-size: 20px;
+    line-height: 150%;
+  }
+  .paragrafprekt5 {
+    position: absolute;
+    width: 194px;
+    height: 64px;
+    left: 20px;
+    top: 3474px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .imgprekt5 {
+    position: absolute;
+    width: 303.06px;
+    height: 195.5px;
+    left: 50.18px;
+    top: 3568.5px;
+  }
+  .buttonproject5 {
+    position: absolute;
+    width: 140px;
+    height: 40px;
+    left: 214px;
+    top: 3794px;
+    border-radius: 0px 10px 10px 10px;
+    font-size: 16px;
+  }
+  .covercontact {
+    position: absolute;
+    width: 375px;
+    height: 434px;
+    left: -2px;
+    top: 3886px;
+
+    background: rgba(44, 16, 81, 0.4);
+    border-radius: 0px;
+  }
+  .contactme {
+    position: absolute;
+    width: 145px;
+    height: 31px;
+    left: 113px;
+    top: 3914px;
+    font-weight: 800;
+    font-size: 26px;
+    line-height: 120%;
+    /* or 31px */
+
+    text-align: center;
+    letter-spacing: 0.02em;
+  }
+  .name {
+    position: absolute;
+    width: 39px;
+    height: 16px;
+    left: 20px;
+    top: 3975px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 120%;
+  }
+
+  .nameinput {
+    position: absolute;
+    width: 335px;
+    height: 40px;
+    left: 20px;
+    top: 3997px;
+    border: 1px solid #faf4e6;
+    box-sizing: border-box;
+    border-radius: 5px;
+  }
+  .email {
+    position: absolute;
+    width: 38px;
+    height: 15px;
+    left: 20px;
+    top: 4051px;
+
+    font-size: 14px;
+    line-height: 120%;
+    font-style: normal;
+    font-weight: normal;
+    /* or 17px */
+  }
+
+  .emailinput {
+    position: absolute;
+    width: 335px;
+    height: 40px;
+    left: 20px;
+    top: 4072px;
+    border: 1px solid #faf4e6;
+    box-sizing: border-box;
+    border-radius: 5px;
+  }
+  .message {
+    position: absolute;
+    width: 58px;
+    height: 15px;
+    left: 20px;
+    top: 4126px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 120%;
+  }
+  .textareamessage {
+    position: absolute;
+    width: 335px;
+    height: 104px;
+    left: 20px;
+    top: 4148px;
+
+    box-sizing: border-box;
+    border-radius: 0px 10px 10px 10px;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+  }
+  .buttonsend {
+    position: absolute;
+    width: 335px;
+    height: 37px;
+    left: 20px;
+    top: 4262px;
+    border: 1px solid #faf4e6;
+    box-sizing: border-box;
+    border-radius: 0px 10px 10px 10px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 120%;
+  }
+  .podatocikocka {
+    position: absolute;
+    width: 336px;
+    height: 263px;
+    left: 20px;
+    top: 4370px;
+    border-radius: 0px;
+    background: #280e63;
+  }
+  .mojemail {
+    position: absolute;
+    width: 71px;
+    height: 24px;
+    left: 56px;
+    top: 4406px;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 120%;
+
+    letter-spacing: 0.1em;
+  }
+  .hotmail {
+    position: absolute;
+    width: 264px;
+    height: 19px;
+    left: 56px;
+    top: 4440px;
+
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 120%;
+  }
+  .phone {
+    position: absolute;
+    width: 80px;
+    height: 24px;
+    left: 56px;
+    top: 4479px;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 120%;
+    /* identical to box height, or 24px */
+
+    letter-spacing: 0.1em;
+  }
+  .mojphone {
+    position: absolute;
+    width: 116px;
+    height: 19px;
+    left: 56px;
+    top: 4513px;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 120%;
+  }
+  .fb {
+    position: absolute;
+    width: 33.69px;
+    height: 35px;
+    left: 56px;
+    top: 4562px;
+  }
+  .ld {
+    position: absolute;
+    width: 35px;
+    height: 34.91px;
+    left: 114px;
+    top: 4562px;
+  }
+  .insta {
+    position: absolute;
+    width: 33.69px;
+    height: 35px;
+    left: 172px;
+    top: 4562px;
+  }
+  .be {
+    position: absolute;
+    width: 33.69px;
+    height: 35px;
+    left: 226.87px;
+    top: 4562px;
+  }
+  .dd {
+    position: absolute;
+    width: 33.69px;
+    height: 35px;
+    left: 281.74px;
+    top: 4562px;
+  }
 }
