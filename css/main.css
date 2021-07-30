@@ -84,7 +84,7 @@ body {
   filter: drop-shadow(0px 4px 9px rgba(125, 115, 59, 0.25));
   border-radius: 0px 10px 10px 0px;
 }
-.buttondownload button:hover {
+.hero button:hover {
   color: #f8f1a8;
 }
 .imgslika {
@@ -94,15 +94,13 @@ body {
   left: 901px;
   top: 106.03px;
 }
-
 .imgsenka {
   position: absolute;
   width: 421.52px;
   height: 751.38px;
   left: 901px;
   top: 106.03px;
-
-  filter: blur(100px);
+  filter: blur(160px);
 }
 
 .naslovwhatido {
@@ -280,7 +278,7 @@ body {
   height: 411px;
   left: 110px;
   top: 1971px;
-  background: url(5R7A0125.jpg);
+
   border-radius: 0px 30px 30px 0px;
 }
 
@@ -950,11 +948,9 @@ body {
 }
 
 @media screen and (max-width: 700px) {
-  .body {
-    position: relativea;
-    margin: none;
-    padding: none;
-    display: block;
+  body {
+    position: relative;
+    box-sizing: border-box;
   }
 
   .text1 {
@@ -1014,6 +1010,24 @@ body {
     line-height: 16px;
   }
 
+  .buttondownload button:hover {
+    color: #f8f1a8;
+  }
+  .buttondownload:hover {
+    color: #f8f1a8;
+  }
+  .hero button:hover {
+    position: absolute;
+    width: 110px;
+    height: 38px;
+    left: 20px;
+    top: 262px;
+    color: #f8f1a8;
+    border: 2px solid #f8f1a8;
+  }
+  .hero button:hover {
+    color: #f8f1a8;
+  }
   .naslovwhatido {
     display: none;
   }
@@ -1034,7 +1048,7 @@ body {
   }
   .aboutmetext {
     position: absolute;
-    width: 131px;
+    /* width: 131px; */
     height: 31px;
     left: 122px;
     top: 875px;
@@ -1050,19 +1064,19 @@ body {
     height: 208px;
     left: 48px;
     top: 946px;
-    background: url(5R7A0125.jpg);
     border-radius: 0px;
   }
 
   .aboutparagraf {
     position: absolute;
-    width: 264px;
+    width: 286px;
     height: 100%;
-    left: 55px;
-    top: 1184px;
+    left: 50px;
+    top: 1174px;
     font-weight: 600;
     font-size: 12px;
     line-height: 16px;
+    text-align: center;
   }
   .tekstproekt {
     position: absolute;
@@ -1078,16 +1092,15 @@ body {
   }
   .naslovprekt1 {
     position: absolute;
-    width: 158px;
-    height: 30px;
+    height: 27px;
     left: 20px;
     top: 1539px;
     font-size: 20px;
-    line-height: 150%;
+    line-height: 27px;
   }
   .paragrafprekt1 {
     position: absolute;
-    width: 194px;
+    width: 300px;
     height: 64px;
     left: 20px;
     top: 1584px;
@@ -1113,9 +1126,26 @@ body {
     font-size: 16px;
   }
 
+  .buttonproject1:hover {
+    position: absolute;
+    width: 140px;
+    height: 40px;
+    left: 214px;
+    top: 1917px;
+    font-size: 16px;
+    color: #f8f1a8;
+
+    border: 2px solid #f8f1a8;
+    box-sizing: border-box;
+    border-radius: 0px 10px 10px 10px;
+  }
+
+  .buttonproject1 a:hover {
+    color: #f8f1a8;
+  }
+
   .naslovprekt2 {
     position: absolute;
-    width: 124px;
     height: 30px;
     left: 20px;
     top: 2007px;
@@ -1124,7 +1154,7 @@ body {
   }
   .paragrafprekt2 {
     position: absolute;
-    width: 194px;
+    width: 300px;
     height: 64px;
     left: 20px;
     top: 2052px;
@@ -1150,9 +1180,26 @@ body {
     font-size: 16px;
   }
 
+  .buttonproject2:hover {
+    position: absolute;
+    width: 140px;
+    height: 40px;
+    left: 214px;
+    top: 2386px;
+    font-size: 16px;
+    color: #f8f1a8;
+
+    border: 2px solid #f8f1a8;
+    box-sizing: border-box;
+    border-radius: 0px 10px 10px 10px;
+  }
+
+  .buttonproject2 a:hover {
+    color: #f8f1a8;
+  }
+
   .naslovprekt3 {
     position: absolute;
-    width: 168px;
     height: 30px;
     left: 20px;
     top: 2476px;
@@ -1161,7 +1208,7 @@ body {
   }
   .paragrafprekt3 {
     position: absolute;
-    width: 194px;
+    width: 300px;
     height: 64px;
     left: 20px;
     top: 2521px;
@@ -1187,9 +1234,26 @@ body {
     font-size: 16px;
   }
 
+  .buttonproject3:hover {
+    position: absolute;
+    width: 140px;
+    height: 40px;
+    left: 214px;
+    top: 2878px;
+    font-size: 16px;
+    color: #f8f1a8;
+
+    border: 2px solid #f8f1a8;
+    box-sizing: border-box;
+    border-radius: 0px 10px 10px 10px;
+  }
+
+  .buttonproject3 a:hover {
+    color: #f8f1a8;
+  }
+
   .naslovprekt4 {
     position: absolute;
-    width: 90px;
     height: 30px;
     left: 20px;
     top: 2968px;
@@ -1198,7 +1262,7 @@ body {
   }
   .paragrafprekt4 {
     position: absolute;
-    width: 194px;
+    width: 300px;
     height: 64px;
     left: 20px;
     top: 3013px;
@@ -1223,9 +1287,26 @@ body {
     font-size: 16px;
   }
 
+  .buttonproject4:hover {
+    position: absolute;
+    width: 140px;
+    height: 40px;
+    left: 214px;
+    top: 3339px;
+    font-size: 16px;
+    color: #f8f1a8;
+
+    border: 2px solid #f8f1a8;
+    box-sizing: border-box;
+    border-radius: 0px 10px 10px 10px;
+  }
+
+  .buttonproject4 a:hover {
+    color: #f8f1a8;
+  }
   .naslovprekt5 {
     position: absolute;
-    width: 121px;
+
     height: 30px;
     left: 20px;
     top: 3429px;
@@ -1234,7 +1315,7 @@ body {
   }
   .paragrafprekt5 {
     position: absolute;
-    width: 194px;
+    width: 300px;
     height: 64px;
     left: 20px;
     top: 3474px;
@@ -1260,6 +1341,24 @@ body {
     border-radius: 0px 10px 10px 10px;
     font-size: 16px;
   }
+
+  .buttonproject5:hover {
+    position: absolute;
+    width: 140px;
+    height: 40px;
+    left: 214px;
+    top: 3794px;
+    font-size: 16px;
+    color: #f8f1a8;
+
+    border: 2px solid #f8f1a8;
+    box-sizing: border-box;
+    border-radius: 0px 10px 10px 10px;
+  }
+
+  .buttonproject5 a:hover {
+    color: #f8f1a8;
+  }
   .covercontact {
     position: absolute;
     width: 375px;
@@ -1272,16 +1371,1574 @@ body {
   }
   .contactme {
     position: absolute;
-    width: 145px;
+    /* width: 145px; */
     height: 31px;
     left: 113px;
     top: 3914px;
     font-weight: 800;
     font-size: 26px;
     line-height: 120%;
-    /* or 31px */
+    /* text-align: center; */
+    letter-spacing: 0.02em;
+  }
+  .name {
+    position: absolute;
+    width: 39px;
+    height: 16px;
+    left: 20px;
+    top: 3975px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 120%;
+  }
 
+  .nameinput {
+    position: absolute;
+    width: 335px;
+    height: 40px;
+    left: 20px;
+    top: 3997px;
+    border: 1px solid #faf4e6;
+    box-sizing: border-box;
+    border-radius: 5px;
+  }
+  .email {
+    position: absolute;
+    width: 38px;
+    height: 15px;
+    left: 20px;
+    top: 4051px;
+
+    font-size: 14px;
+    line-height: 120%;
+    font-style: normal;
+    font-weight: normal;
+    /* or 17px */
+  }
+
+  .emailinput {
+    position: absolute;
+    width: 335px;
+    height: 40px;
+    left: 20px;
+    top: 4072px;
+    border: 1px solid #faf4e6;
+    box-sizing: border-box;
+    border-radius: 5px;
+  }
+  .message {
+    position: absolute;
+    width: 58px;
+    height: 15px;
+    left: 20px;
+    top: 4126px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 120%;
+  }
+  .textareamessage {
+    position: absolute;
+    width: 335px;
+    height: 104px;
+    left: 20px;
+    top: 4148px;
+
+    box-sizing: border-box;
+    border-radius: 0px 10px 10px 10px;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+  }
+  .buttonsend {
+    position: absolute;
+    width: 335px;
+    height: 37px;
+    left: 20px;
+    top: 4262px;
+    border: 1px solid #faf4e6;
+    box-sizing: border-box;
+    border-radius: 0px 10px 10px 10px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 120%;
+  }
+  .podatocikocka {
+    position: absolute;
+    width: 336px;
+    height: 263px;
+    left: 20px;
+    top: 4370px;
+    border-radius: 0px;
+    background: #280e63;
+  }
+  .mojemail {
+    position: absolute;
+    width: 71px;
+    height: 24px;
+    left: 56px;
+    top: 4406px;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 120%;
+
+    letter-spacing: 0.1em;
+  }
+  .hotmail {
+    position: absolute;
+    width: 264px;
+    height: 19px;
+    left: 56px;
+    top: 4440px;
+
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 120%;
+  }
+  .phone {
+    position: absolute;
+    width: 80px;
+    height: 24px;
+    left: 56px;
+    top: 4479px;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 120%;
+    /* identical to box height, or 24px */
+
+    letter-spacing: 0.1em;
+  }
+  .mojphone {
+    position: absolute;
+    width: 116px;
+    height: 19px;
+    left: 56px;
+    top: 4513px;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 120%;
+  }
+  .fb {
+    position: absolute;
+    width: 33.69px;
+    height: 35px;
+    left: 56px;
+    top: 4562px;
+  }
+  .ld {
+    position: absolute;
+    width: 35px;
+    height: 34.91px;
+    left: 114px;
+    top: 4562px;
+  }
+  .insta {
+    position: absolute;
+    width: 33.69px;
+    height: 35px;
+    left: 172px;
+    top: 4562px;
+  }
+  .be {
+    position: absolute;
+    width: 33.69px;
+    height: 35px;
+    left: 226.87px;
+    top: 4562px;
+  }
+  .dd {
+    position: absolute;
+    width: 33.69px;
+    height: 35px;
+    left: 281.74px;
+    top: 4562px;
+  }
+}
+body {
+  background-image: url(../images/cover.jpg);
+  position: absolute;
+  text-decoration: none;
+  display: block;
+  margin: 0;
+  padding: 0;
+  background-attachment: fixed;
+}
+
+.text1 {
+  position: absolute;
+  width: 500px;
+  height: 48px;
+  left: 110px;
+  top: 300px;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 120%;
+  text-transform: capitalize;
+  color: #f5eff6;
+}
+
+.text2 {
+  position: absolute;
+  width: 265px;
+  height: 86px;
+  left: 110px;
+  top: 374px;
+
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 120%;
+  letter-spacing: 0.2em;
+
+  color: #f5eff6;
+}
+
+.text3 {
+  position: absolute;
+  width: 201px;
+  height: 58px;
+  left: 394px;
+  top: 396px;
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 120%;
+  color: #f5eff6;
+}
+
+.buttondownload {
+  position: absolute;
+  width: 242px;
+  height: 52px;
+  left: 110px;
+  top: 552px;
+  background: rgba(242, 208, 248, 0.3);
+  border: 1px solid #f2d0f8;
+  box-sizing: border-box;
+  border-radius: 0px 10px 10px 0px;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 36px;
+  color: #f2d0f8;
+}
+
+.hero button:hover {
+  position: absolute;
+  width: 242px;
+  height: 52px;
+  left: 110px;
+  top: 552px;
+  color: #f8f1a8;
+  border: 2px solid #f8f1a8;
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 9px rgba(125, 115, 59, 0.25));
+  border-radius: 0px 10px 10px 0px;
+}
+.hero button:hover {
+  color: #f8f1a8;
+}
+.imgslika {
+  position: absolute;
+  width: 421.52px;
+  height: 751.38px;
+  left: 901px;
+  top: 106.03px;
+}
+.imgsenka {
+  position: absolute;
+  width: 421.52px;
+  height: 751.38px;
+  left: 901px;
+  top: 106.03px;
+  filter: blur(160px);
+}
+
+.naslovwhatido {
+  position: absolute;
+  width: 277px;
+  height: 60px;
+  left: 598px;
+  top: 1058px;
+  color: #f8f1a8;
+  padding: 20px;
+  font-size: 50px;
+  font-family: Nunito Sans;
+  font-style: bold;
+  font-weight: bold;
+}
+
+.worktables {
+  position: absolute;
+  color: #f8f1a8;
+  font-family: Nunito Sans;
+
+  font-size: 18px;
+  width: 1221px;
+  height: 409px;
+  left: 110px;
+  top: 1220px;
+}
+.eden {
+  list-style-type: none;
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-size: 18px;
+}
+
+.lefttop {
+  width: 360px;
+  height: 172px;
+  left: 110px;
+  top: 1229px;
+  vertical-align: 65px;
+  padding: 20px;
+  background: rgba(248, 241, 168, 0.2);
+  border: 1px solid #f8f1a8;
+  box-sizing: border-box;
+  border-radius: 0px 0px 30px 0px;
+}
+
+.centartop {
+  width: 360px;
+  height: 172px;
+  left: 540px;
+  top: 1229px;
+  padding: 20px;
+  background: rgba(248, 241, 168, 0.2);
+  border: 1px solid #f8f1a8;
+  box-sizing: border-box;
+  border-radius: 0px 0px 30px 30px;
+}
+
+/* .iconcentartop {
+  position: absolute;
+  left: 42.08%;
+  right: 54.72%;
+  top: 20.46%;
+  bottom: 78.82%;
+
+  background: #461a7e;
+  border: 2px solid #2b104d;
+} */
+
+.righttop {
+  width: 360px;
+  height: 172px;
+  left: 970px;
+  top: 1229px;
+  padding: 20px;
+  background: rgba(248, 241, 168, 0.2);
+  border: 1px solid #f8f1a8;
+  box-sizing: border-box;
+  border-radius: 0px 0px 0px 30px;
+}
+/* 
+.iconrighttop {
+  position: absolute;
+  left: 80%;
+  right: 16.81%;
+  top: 20.46%;
+  bottom: 78.82%;
+
+  background: #461a7e;
+  border: 2px solid #2b104d;
+} */
+
+.leftbottom {
+  width: 360px;
+  height: 172px;
+  left: 111px;
+  top: 1466px;
+  padding: 20px;
+  background: rgba(248, 241, 168, 0.2);
+  border: 1px solid #f8f1a8;
+  box-sizing: border-box;
+  border-radius: 0px 30px 0px 0px;
+}
+
+.centarbottom {
+  width: 360px;
+  height: 172px;
+  left: 541px;
+  top: 1466px;
+  padding: 20px;
+  background: rgba(248, 241, 168, 0.2);
+  border: 1px solid #f8f1a8;
+  box-sizing: border-box;
+  border-radius: 30px 30px 0px 0px;
+}
+
+.rightbottom {
+  width: 360px;
+  height: 172px;
+  left: 971px;
+  top: 1466px;
+  padding: 20px;
+  background: rgba(248, 241, 168, 0.2);
+  border: 1px solid #f8f1a8;
+  box-sizing: border-box;
+  border-radius: 30px 0px 0px 0px;
+}
+
+.about {
+  font-family: Nunito Sans;
+  font-style: normal;
+  color: #f2d0f8;
+}
+
+.aboutcover {
+  position: absolute;
+  width: 1220px;
+  height: 677px;
+  left: 110px;
+  top: 1877px;
+  background: rgba(44, 16, 81, 0.4);
+  border-radius: 0px;
+}
+
+.aboutmetext {
+  position: absolute;
+  width: 400px;
+  height: 58px;
+  left: 865px;
+  top: 1966px;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 120%;
+  letter-spacing: 0.1em;
+}
+
+.aboutparagraf {
+  position: relative;
+  width: 513px;
+  height: 288px;
+  left: 737px;
+  top: 2064px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.aboutparagraf a {
+  color: #f8f1a8;
+}
+.aboutimg {
+  position: absolute;
+  width: 550px;
+  height: 411px;
+  left: 110px;
+  top: 1971px;
+
+  border-radius: 0px 30px 30px 0px;
+}
+
+.tekstproekt {
+  position: absolute;
+  width: 228px;
+  height: 60px;
+  left: 676px;
+  top: 2754px;
+  font-family: Nunito Sans;
+  font-style: bold;
+  color: #efe57e;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 120%;
+  letter-spacing: 0.1em;
+  text-transform: capitalize;
+}
+
+.imgprekt1 {
+  position: absolute;
+  width: 581.06px;
+  height: 364px;
+  left: 165px;
+  top: 2993px;
+
+  /* filter: drop-shadow(0px 2px 20px rgba(250, 244, 230, 0.25)); */
+}
+
+.buttonproject1 {
+  background-color: inherit;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+  color: #faf4e6;
+  position: absolute;
+  width: 199px;
+  height: 52px;
+  left: 814px;
+  top: 3281px;
+  border: 1px solid #faf4e6;
+  box-sizing: border-box;
+  border-radius: 15px 15px 15px 0px;
+}
+.buttonproject1:hover {
+  background-color: inherit;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+  color: #f8f1a8;
+  position: absolute;
+  width: 199px;
+  height: 52px;
+  left: 814px;
+  top: 3281px;
+  border: 3px solid #f8f1a8;
+  box-sizing: border-box;
+  border-radius: 15px 15px 15px 0px;
+  filter: drop-shadow(0px 4px 75px #504d36);
+}
+
+.buttonproject1 a:hover {
+  color: #f8f1a8;
+}
+
+.buttonproject1 a {
+  color: #faf4e6;
+}
+
+.naslovprekt1 {
+  position: absolute;
+  width: 500px;
+  height: 54px;
+  left: 814px;
+  top: 3002px;
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 150%;
+  color: #faf4e6;
+}
+
+.paragrafprekt1 {
+  position: absolute;
+  width: 464px;
+  height: 108px;
+  left: 814px;
+  top: 3113px;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+  color: #faf4e6;
+}
+
+.imgprekt2 {
+  position: absolute;
+  width: 580.71px;
+  height: 364px;
+  left: 746px;
+  top: 3510px;
+}
+
+.naslovprekt2 {
+  position: absolute;
+  width: 222px;
+  height: 54px;
+  left: 165px;
+  top: 3515px;
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 150%;
+  color: #faf4e6;
+}
+
+.paragrafprekt2 {
+  position: absolute;
+  width: 464px;
+  height: 108px;
+  left: 165px;
+  top: 3626px;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+  color: #faf4e6;
+}
+
+.buttonproject2 {
+  background-color: inherit;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+  color: #faf4e6;
+  position: absolute;
+  width: 199px;
+  height: 52px;
+  left: 165px;
+  top: 3794px;
+  border: 1px solid #faf4e6;
+  box-sizing: border-box;
+  border-radius: 15px 15px 0px 15px;
+}
+
+.buttonproject2 a {
+  color: #faf4e6;
+}
+
+.buttonproject2:hover {
+  background-color: inherit;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+  color: #f8f1a8;
+  position: absolute;
+  width: 199px;
+  height: 52px;
+  left: 165px;
+  top: 3794px;
+  border: 3px solid #f8f1a8;
+  box-sizing: border-box;
+  border-radius: 15px 15px 0px 15px;
+}
+
+.buttonproject2 a:hover {
+  color: #f8f1a8;
+}
+.naslovprekt3 {
+  position: absolute;
+  width: 302px;
+  height: 54px;
+  left: 812px;
+  top: 4032px;
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 150%;
+  color: #faf4e6;
+}
+
+.imgprekt3 {
+  position: absolute;
+  width: 693.33px;
+  height: 431px;
+  left: 96px;
+  top: 4032px;
+}
+
+.paragrafprekt3 {
+  position: absolute;
+  width: 464px;
+  height: 108px;
+  left: 812px;
+  top: 4143px;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+  color: #faf4e6;
+}
+
+.buttonproject3 {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+  background-color: inherit;
+  color: #faf4e6;
+
+  position: absolute;
+  width: 199px;
+  height: 52px;
+  left: 812px;
+  top: 4311px;
+
+  border: 1px solid #faf4e6;
+  box-sizing: border-box;
+  border-radius: 15px 15px 15px 0px;
+}
+
+.buttonproject3 a {
+  color: #faf4e6;
+}
+
+.buttonproject3:hover {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+  background-color: inherit;
+  color: #f8f1a8;
+
+  position: absolute;
+  width: 199px;
+  height: 52px;
+  left: 812px;
+  top: 4311px;
+
+  border: 3px solid #f8f1a8;
+  box-sizing: border-box;
+  border-radius: 15px 15px 15px 0px;
+}
+
+.buttonproject3 a:hover {
+  color: #f8f1a8;
+}
+.naslovprekt4 {
+  position: absolute;
+  width: 161px;
+  height: 54px;
+  left: 163px;
+  top: 4621px;
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 150%;
+  color: #faf4e6;
+}
+
+.paragrafprekt4 {
+  position: absolute;
+  width: 464px;
+  height: 108px;
+  left: 163px;
+  top: 4732px;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+  color: #faf4e6;
+}
+
+.buttonproject4 {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+  color: #faf4e6;
+  position: absolute;
+  width: 199px;
+  height: 52px;
+  left: 163px;
+  top: 4900px;
+  background-color: inherit;
+  border: 1px solid #faf4e6;
+  box-sizing: border-box;
+  border-radius: 15px 15px 0px 15px;
+}
+.buttonproject4 a {
+  color: #faf4e6;
+}
+
+.buttonproject4:hover {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+  color: #f8f1a8;
+  position: absolute;
+  width: 199px;
+  height: 52px;
+  left: 163px;
+  top: 4900px;
+  background-color: inherit;
+  border: 3px solid #f8f1a8;
+  box-sizing: border-box;
+  border-radius: 15px 15px 0px 15px;
+}
+.buttonproject4 a:hover {
+  color: #f8f1a8;
+}
+.imgprekt4 {
+  position: absolute;
+  width: 620.42px;
+  height: 373.63px;
+  left: 681px;
+  top: 4631px;
+}
+
+.imgprekt5 {
+  position: absolute;
+  width: 598.46px;
+  height: 349px;
+  left: 132px;
+  top: 5145px;
+}
+
+.buttonproject5 {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+  color: #faf4e6;
+  position: absolute;
+  width: 199px;
+  height: 52px;
+  left: 810px;
+  top: 5442px;
+  background-color: inherit;
+  border: 1px solid #faf4e6;
+  box-sizing: border-box;
+  border-radius: 15px 15px 15px 0px;
+}
+.buttonproject5 a {
+  color: #faf4e6;
+}
+
+.buttonproject5:hover {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+  color: #f8f1a8;
+  position: absolute;
+  width: 199px;
+  height: 52px;
+  left: 810px;
+  top: 5442px;
+  background-color: inherit;
+  border: 3px solid #f8f1a8;
+  box-sizing: border-box;
+  border-radius: 15px 15px 15px 0px;
+}
+.buttonproject5 a:hover {
+  color: #f8f1a8;
+}
+.naslovprekt5 {
+  position: absolute;
+  width: 222px;
+  height: 54px;
+  left: 810px;
+  top: 5163px;
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 150%;
+  color: #faf4e6;
+}
+
+.paragrafprekt5 {
+  position: absolute;
+  width: 464px;
+  height: 108px;
+  left: 810px;
+  top: 5274px;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+  color: #faf4e6;
+}
+
+.covercontact {
+  position: absolute;
+  width: 1220px;
+  height: 600px;
+  left: 110px;
+  top: 5694px;
+  background: rgba(44, 16, 81, 0.4);
+  border-radius: 0px;
+}
+
+.contactme {
+  position: absolute;
+  width: 500px;
+  height: 58px;
+  left: 170px;
+  top: 5754px;
+
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 120%;
+  /* identical to box height, or 58px */
+
+  letter-spacing: 0.05em;
+
+  color: #f2d0f8;
+}
+
+.name {
+  position: absolute;
+  width: 55px;
+  height: 24px;
+  left: 170px;
+  top: 5852px;
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 120%;
+  color: #f2d0f8;
+}
+
+.nameinput {
+  position: absolute;
+  width: 486px;
+  height: 40px;
+  left: 170px;
+  top: 5882px;
+  background-color: inherit;
+  border: 1px solid #faf4e6;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.email {
+  position: absolute;
+  width: 54px;
+  height: 24px;
+  left: 170px;
+  top: 5930px;
+
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 120%;
+  /* identical to box height, or 24px */
+
+  color: #f2d0f8;
+}
+
+.emailinput {
+  position: absolute;
+  width: 486px;
+  height: 40px;
+  left: 170px;
+  top: 5960px;
+  background-color: inherit;
+  border: 1px solid #faf4e6;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+.message {
+  position: absolute;
+  width: 83px;
+  height: 24px;
+  left: 170px;
+  top: 6008px;
+
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 120%;
+  color: #f2d0f8;
+}
+.textareamessage {
+  position: absolute;
+  width: 486px;
+  height: 120px;
+  left: 170px;
+  top: 6050px;
+  background-color: inherit;
+  border: 1px solid #faf4e6;
+  box-sizing: border-box;
+  border-radius: 0px 10px 10px 10px;
+  transform: matrix(1, 0, 0, -1, 0, 0);
+}
+
+.buttonsend {
+  position: absolute;
+  width: 486px;
+  height: 49px;
+  left: 170px;
+  top: 6185px;
+
+  border: 1px solid #faf4e6;
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 0px 10px 10px 10px;
+  background-color: inherit;
+
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 120%;
+  /* identical to box height, or 24px */
+
+  color: #f2d0f8;
+
+  color: #f2d0f8;
+}
+
+.podatocikocka {
+  position: absolute;
+  width: 500px;
+  height: 400px;
+  left: 830px;
+  top: 5834px;
+
+  background: #280e63;
+  border-radius: 30px 0px 0px 30px;
+}
+
+.mojemail {
+  position: absolute;
+  width: 85px;
+  height: 29px;
+  left: 915px;
+  top: 5894px;
+
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 120%;
+  /* identical to box height, or 29px */
+
+  letter-spacing: 0.1em;
+
+  color: #efe57e;
+}
+
+.hotmail {
+  position: absolute;
+  width: 330px;
+  height: 24px;
+  left: 915px;
+  top: 5943px;
+
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 120%;
+  /* identical to box height, or 24px */
+
+  color: #f2d0f8;
+}
+
+.phone {
+  position: absolute;
+  width: 96px;
+  height: 29px;
+  left: 915px;
+  top: 6007px;
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 120%;
+  letter-spacing: 0.1em;
+  color: #efe57e;
+}
+
+.mojphone {
+  position: absolute;
+  width: 144px;
+  height: 24px;
+  left: 915px;
+  top: 6056px;
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 120%;
+  color: #f2d0f8;
+}
+
+.fb {
+  position: absolute;
+  width: 34.73px;
+  height: 35px;
+  left: 908.05px;
+  top: 6140px;
+}
+
+.ld {
+  position: absolute;
+  width: 34.73px;
+  height: 35px;
+  left: 964.62px;
+  top: 6140px;
+}
+
+.insta {
+  position: absolute;
+  width: 35px;
+  height: 34.91px;
+  left: 1022px;
+  top: 6140px;
+}
+
+.be {
+  position: absolute;
+  width: 34.73px;
+  height: 35px;
+  left: 1079px;
+  top: 6140px;
+}
+
+.dd {
+  position: absolute;
+  width: 34.73px;
+  height: 35px;
+  left: 1136px;
+  top: 6140px;
+}
+
+@media screen and (max-width: 700px) {
+  body {
+    position: relative;
+    box-sizing: border-box;
+  }
+
+  .text1 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    text-transform: capitalize;
+    left: 24px;
+    top: 120px;
+  }
+
+  .text2 {
+    position: absolute;
+    width: 133px;
+    height: 43px;
+    left: 24px;
+    top: 174px;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 120%;
+    letter-spacing: 0.2em;
+  }
+  .text3 {
+    position: absolute;
+    width: 151px;
+    height: 43px;
+    left: 168px;
+    top: 174px;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 120%;
+  }
+  .imgslika {
+    width: 269px;
+    height: 474px;
+
+    left: 108px;
+    right: 0px;
+    top: 242px;
+  }
+  .imgsenka {
+    width: 269px;
+    height: 474px;
+
+    left: 108px;
+    right: 0px;
+    top: 242px;
+  }
+
+  .buttondownload {
+    position: absolute;
+    width: 110px;
+    height: 38px;
+    left: 20px;
+    top: 262px;
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .buttondownload button:hover {
+    color: #f8f1a8;
+  }
+  .buttondownload:hover {
+    color: #f8f1a8;
+  }
+  .hero button:hover {
+    position: absolute;
+    width: 110px;
+    height: 38px;
+    left: 20px;
+    top: 262px;
+    color: #f8f1a8;
+    border: 2px solid #f8f1a8;
+  }
+  .hero button:hover {
+    color: #f8f1a8;
+  }
+  .naslovwhatido {
+    display: none;
+  }
+
+  .worktables {
+    display: none;
+  }
+
+  .aboutcover {
+    position: absolute;
+    width: 334px;
+    height: 533px;
+    left: 20px;
+    right: 20px;
+    top: 835px;
+    background: rgba(44, 16, 81, 0.4);
+    border-radius: 0px;
+  }
+  .aboutmetext {
+    position: absolute;
+    /* width: 131px; */
+    height: 31px;
+    left: 122px;
+    top: 875px;
+    font-weight: 800;
+    font-size: 26px;
+    line-height: 120%;
+    letter-spacing: 0.05em;
+  }
+
+  .aboutimg {
+    position: absolute;
+    width: 278px;
+    height: 208px;
+    left: 48px;
+    top: 946px;
+    border-radius: 0px;
+  }
+
+  .aboutparagraf {
+    position: absolute;
+    width: 286px;
+    height: 100%;
+    left: 50px;
+    top: 1174px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
     text-align: center;
+  }
+  .tekstproekt {
+    position: absolute;
+    width: 110px;
+    height: 31px;
+    left: 132px;
+    top: 1448px;
+    font-weight: 800;
+    font-size: 26px;
+    line-height: 120%;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+  }
+  .naslovprekt1 {
+    position: absolute;
+    height: 27px;
+    left: 20px;
+    top: 1539px;
+    font-size: 20px;
+    line-height: 27px;
+  }
+  .paragrafprekt1 {
+    position: absolute;
+    width: 300px;
+    height: 64px;
+    left: 20px;
+    top: 1584px;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .imgprekt1 {
+    position: absolute;
+    width: 333.63px;
+    height: 209px;
+    left: 20px;
+    top: 1678px;
+  }
+  .buttonproject1 {
+    position: absolute;
+    width: 140px;
+    height: 40px;
+    left: 214px;
+    top: 1917px;
+    border-radius: 0px 10px 10px 10px;
+    font-size: 16px;
+  }
+
+  .buttonproject1:hover {
+    position: absolute;
+    width: 140px;
+    height: 40px;
+    left: 214px;
+    top: 1917px;
+    font-size: 16px;
+    color: #f8f1a8;
+
+    border: 2px solid #f8f1a8;
+    box-sizing: border-box;
+    border-radius: 0px 10px 10px 10px;
+  }
+
+  .buttonproject1 a:hover {
+    color: #f8f1a8;
+  }
+
+  .naslovprekt2 {
+    position: absolute;
+    height: 30px;
+    left: 20px;
+    top: 2007px;
+    font-size: 20px;
+    line-height: 150%;
+  }
+  .paragrafprekt2 {
+    position: absolute;
+    width: 300px;
+    height: 64px;
+    left: 20px;
+    top: 2052px;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .imgprekt2 {
+    position: absolute;
+    width: 334px;
+    height: 209.36px;
+    left: 20px;
+    top: 2146px;
+  }
+  .buttonproject2 {
+    position: absolute;
+    width: 140px;
+    height: 40px;
+    left: 214px;
+    top: 2386px;
+    border-radius: 0px 10px 10px 10px;
+    font-size: 16px;
+  }
+
+  .buttonproject2:hover {
+    position: absolute;
+    width: 140px;
+    height: 40px;
+    left: 214px;
+    top: 2386px;
+    font-size: 16px;
+    color: #f8f1a8;
+
+    border: 2px solid #f8f1a8;
+    box-sizing: border-box;
+    border-radius: 0px 10px 10px 10px;
+  }
+
+  .buttonproject2 a:hover {
+    color: #f8f1a8;
+  }
+
+  .naslovprekt3 {
+    position: absolute;
+    height: 30px;
+    left: 20px;
+    top: 2476px;
+    font-size: 20px;
+    line-height: 150%;
+  }
+  .paragrafprekt3 {
+    position: absolute;
+    width: 300px;
+    height: 64px;
+    left: 20px;
+    top: 2521px;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .imgprekt3 {
+    position: absolute;
+    width: 334px;
+    height: 232.32px;
+    left: 20px;
+    top: 2615.68px;
+  }
+  .buttonproject3 {
+    position: absolute;
+    width: 140px;
+    height: 40px;
+    left: 214px;
+    top: 2878px;
+    border-radius: 0px 10px 10px 10px;
+    font-size: 16px;
+  }
+
+  .buttonproject3:hover {
+    position: absolute;
+    width: 140px;
+    height: 40px;
+    left: 214px;
+    top: 2878px;
+    font-size: 16px;
+    color: #f8f1a8;
+
+    border: 2px solid #f8f1a8;
+    box-sizing: border-box;
+    border-radius: 0px 10px 10px 10px;
+  }
+
+  .buttonproject3 a:hover {
+    color: #f8f1a8;
+  }
+
+  .naslovprekt4 {
+    position: absolute;
+    height: 30px;
+    left: 20px;
+    top: 2968px;
+    font-size: 20px;
+    line-height: 150%;
+  }
+  .paragrafprekt4 {
+    position: absolute;
+    width: 300px;
+    height: 64px;
+    left: 20px;
+    top: 3013px;
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .imgprekt4 {
+    position: absolute;
+    width: 335.42px;
+    height: 202px;
+    left: 20px;
+    top: 3107px;
+  }
+  .buttonproject4 {
+    position: absolute;
+    width: 140px;
+    height: 40px;
+    left: 214px;
+    top: 3339px;
+    border-radius: 0px 10px 10px 10px;
+    font-size: 16px;
+  }
+
+  .buttonproject4:hover {
+    position: absolute;
+    width: 140px;
+    height: 40px;
+    left: 214px;
+    top: 3339px;
+    font-size: 16px;
+    color: #f8f1a8;
+
+    border: 2px solid #f8f1a8;
+    box-sizing: border-box;
+    border-radius: 0px 10px 10px 10px;
+  }
+
+  .buttonproject4 a:hover {
+    color: #f8f1a8;
+  }
+  .naslovprekt5 {
+    position: absolute;
+
+    height: 30px;
+    left: 20px;
+    top: 3429px;
+    font-size: 20px;
+    line-height: 150%;
+  }
+  .paragrafprekt5 {
+    position: absolute;
+    width: 300px;
+    height: 64px;
+    left: 20px;
+    top: 3474px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .imgprekt5 {
+    position: absolute;
+    width: 303.06px;
+    height: 195.5px;
+    left: 50.18px;
+    top: 3568.5px;
+  }
+  .buttonproject5 {
+    position: absolute;
+    width: 140px;
+    height: 40px;
+    left: 214px;
+    top: 3794px;
+    border-radius: 0px 10px 10px 10px;
+    font-size: 16px;
+  }
+
+  .buttonproject5:hover {
+    position: absolute;
+    width: 140px;
+    height: 40px;
+    left: 214px;
+    top: 3794px;
+    font-size: 16px;
+    color: #f8f1a8;
+
+    border: 2px solid #f8f1a8;
+    box-sizing: border-box;
+    border-radius: 0px 10px 10px 10px;
+  }
+
+  .buttonproject5 a:hover {
+    color: #f8f1a8;
+  }
+  .covercontact {
+    position: absolute;
+    width: 375px;
+    height: 434px;
+    left: -2px;
+    top: 3886px;
+
+    background: rgba(44, 16, 81, 0.4);
+    border-radius: 0px;
+  }
+  .contactme {
+    position: absolute;
+    /* width: 145px; */
+    height: 31px;
+    left: 113px;
+    top: 3914px;
+    font-weight: 800;
+    font-size: 26px;
+    line-height: 120%;
+    /* text-align: center; */
     letter-spacing: 0.02em;
   }
   .name {
