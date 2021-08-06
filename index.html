@@ -17,6 +17,7 @@
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
 
     <link href="css/main.css" rel="stylesheet">
+    <link href="mail.php" rel="stylesheet">
     
 
 
@@ -218,14 +219,18 @@
         <img src="images/covercontact.png" class="covercontact">
         
         <div class="contactme">Contact me</div>
+
+        <form action="mail.php" method="POST">
+
         <div class="name">Name</div>
-        <input type="text" class="nameinput">
+        <input type="text" name="name" class="nameinput" >
         <div class="email">Email</div>
-        <input type="email" class="emailinput">
+        <input type="email" name="email" class="emailinput" >
         <div class="message">Message</div>
-        <textarea class="textareamessage"></textarea>
+        <textarea class="textareamessage" name="message"></textarea>
         <br>
-        <button class="buttonsend">Send</button>
+        <input type="submit" value="Send" class="buttonsend">  </input>
+    </form>
     </div>
 
         <div class="moipodatoci">
