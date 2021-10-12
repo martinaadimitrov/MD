@@ -118,10 +118,12 @@ body {
 }
 
 .worktables {
+
+  text-align: center;
   position: absolute;
   color: #f8f1a8;
   font-family: Nunito Sans;
-
+margin: 40px;
   font-size: 18px;
   width: 1221px;
   height: 409px;
@@ -129,6 +131,8 @@ body {
   top: 1220px;
 }
 .eden {
+  margin-bottom: 40px;
+  margin-right: 50px;
   list-style-type: none;
   font-family: Nunito Sans;
   font-style: normal;
@@ -136,6 +140,7 @@ body {
 }
 
 .lefttop {
+  
   width: 360px;
   height: 172px;
   left: 110px;
@@ -300,8 +305,8 @@ body {
 
 .imgprekt1 {
   position: absolute;
-  width: 581.06px;
-  height: 364px;
+  width: 620px;
+  height: 400px;
   left: 165px;
   top: 2993px;
 
@@ -315,13 +320,14 @@ body {
   font-weight: bold;
   font-size: 24px;
   line-height: 36px;
-  color: #faf4e6;
+  color: rgba(70, 26, 126, 1);
   position: absolute;
   width: 199px;
   height: 52px;
   left: 810px;
   top: 3281px;
   border: 1px solid #faf4e6;
+  background: #F8F1A8;
   box-sizing: border-box;
   border-radius: 15px 15px 15px 0px;
 }
@@ -332,7 +338,7 @@ body {
   font-weight: bold;
   font-size: 24px;
   line-height: 36px;
-  color: #f8f1a8;
+  color:rgba(70, 26, 126, 1);
   position: absolute;
   width: 199px;
   height: 52px;
@@ -368,8 +374,8 @@ body {
 
 .paragrafprekt1 {
   position: absolute;
-  width: 464px;
-  height: 108px;
+  width: 500px;
+  height: 144px;
   left: 810px;
   top: 3113px;
   font-family: Nunito;
@@ -382,8 +388,8 @@ body {
 
 .imgprekt2 {
   position: absolute;
-  width: 580.71px;
-  height: 364px;
+  width: 620px;
+height: 400px;
   left: 810px;
   top: 3510px;
 }
@@ -404,8 +410,8 @@ body {
 
 .paragrafprekt2 {
   position: absolute;
-  width: 464px;
-  height: 108px;
+  width: 496px;
+height: 144px;
   left: 165px;
   top: 3626px;
   font-family: Nunito;
@@ -417,19 +423,21 @@ body {
 }
 
 .buttonproject2 {
-  background-color: inherit;
+  background-color:  #f8f1a8;;
   font-family: Nunito;
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
   line-height: 36px;
-  color: #faf4e6;
+  
   position: absolute;
   width: 199px;
   height: 52px;
   left: 165px;
   top: 3794px;
-  border: 1px solid #faf4e6;
+  color:rgba(70, 26, 126, 1);
+
+ border: 3px solid #f8f1a8;
   box-sizing: border-box;
   border-radius: 15px 15px 0px 15px;
 }
@@ -438,30 +446,10 @@ body {
   color: #faf4e6;
 }
 
-.buttonproject2:hover {
-  background-color: inherit;
-  font-family: Nunito;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 24px;
-  line-height: 36px;
-  color: #f8f1a8;
-  position: absolute;
-  width: 199px;
-  height: 52px;
-  left: 165px;
-  top: 3794px;
-  border: 3px solid #f8f1a8;
-  box-sizing: border-box;
-  border-radius: 15px 15px 0px 15px;
-}
 
-.buttonproject2 a:hover {
-  color: #f8f1a8;
-}
 .naslovprekt3 {
   position: absolute;
-  width: 302px;
+  width: 232px;
   height: 54px;
   left: 810px;
   top: 4032px;
@@ -475,16 +463,16 @@ body {
 
 .imgprekt3 {
   position: absolute;
-  width: 693.33px;
-  height: 431px;
+  width: 620px;
+  height: 400px;
   left: 96px;
   top: 4000px;
 }
 
 .paragrafprekt3 {
   position: absolute;
-  width: 464px;
-  height: 108px;
+  width: 500px;
+height: 144px;
   left: 810px;
   top: 4143px;
   font-family: Nunito;
@@ -501,8 +489,8 @@ body {
   font-weight: bold;
   font-size: 24px;
   line-height: 36px;
-  background-color: inherit;
-  color: #faf4e6;
+  background-color:  #f8f1a8;;
+  color: rgba(70, 26, 126, 1);
 
   position: absolute;
   width: 199px;
@@ -510,192 +498,18 @@ body {
   left: 810px;
   top: 4311px;
 
-  border: 1px solid #faf4e6;
+  border: 1px solid #f8f1a8;;
   box-sizing: border-box;
   border-radius: 15px 15px 15px 0px;
 }
 
-.buttonproject3 a {
-  color: #faf4e6;
-}
-
-.buttonproject3:hover {
-  font-family: Nunito;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 24px;
-  line-height: 36px;
-  background-color: inherit;
-  color: #f8f1a8;
-
+.mail{
   position: absolute;
-  width: 199px;
-  height: 52px;
-  left: 810px;
-  top: 4311px;
-
-  border: 3px solid #f8f1a8;
-  box-sizing: border-box;
-  border-radius: 15px 15px 15px 0px;
+  width: 50px;
+  height: 50px;
+  left: 560px;
+  top: 4744px;
 }
-
-.buttonproject3 a:hover {
-  color: #f8f1a8;
-}
-.naslovprekt4 {
-  position: absolute;
-  width: 161px;
-  height: 54px;
-  left: 163px;
-  top: 4621px;
-  font-family: Nunito Sans;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 150%;
-  color: #faf4e6;
-}
-
-.paragrafprekt4 {
-  position: absolute;
-  width: 464px;
-  height: 108px;
-  left: 163px;
-  top: 4732px;
-  font-family: Nunito;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 24px;
-  line-height: 36px;
-  color: #faf4e6;
-}
-
-.buttonproject4 {
-  font-family: Nunito;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 24px;
-  line-height: 36px;
-  color: #faf4e6;
-  position: absolute;
-  width: 199px;
-  height: 52px;
-  left: 163px;
-  top: 4900px;
-  background-color: inherit;
-  border: 1px solid #faf4e6;
-  box-sizing: border-box;
-  border-radius: 15px 15px 0px 15px;
-}
-.buttonproject4 a {
-  color: #faf4e6;
-}
-
-.buttonproject4:hover {
-  font-family: Nunito;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 24px;
-  line-height: 36px;
-  color: #f8f1a8;
-  position: absolute;
-  width: 199px;
-  height: 52px;
-  left: 163px;
-  top: 4900px;
-  background-color: inherit;
-  border: 3px solid #f8f1a8;
-  box-sizing: border-box;
-  border-radius: 15px 15px 0px 15px;
-}
-.buttonproject4 a:hover {
-  color: #f8f1a8;
-}
-.imgprekt4 {
-  position: absolute;
-  width: 620.42px;
-  height: 373.63px;
-  left: 810px;
-  top: 4624px;
-}
-
-.imgprekt5 {
-  position: absolute;
-  width: 598.46px;
-  height: 349px;
-  left: 132px;
-  top: 5178px;
-}
-
-.buttonproject5 {
-  font-family: Nunito;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 24px;
-  line-height: 36px;
-  color: #faf4e6;
-  position: absolute;
-  width: 199px;
-  height: 52px;
-  left: 810px;
-  top: 5442px;
-  background-color: inherit;
-  border: 1px solid #faf4e6;
-  box-sizing: border-box;
-  border-radius: 15px 15px 15px 0px;
-}
-.buttonproject5 a {
-  color: #faf4e6;
-}
-
-.buttonproject5:hover {
-  font-family: Nunito;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 24px;
-  line-height: 36px;
-  color: #f8f1a8;
-  position: absolute;
-  width: 199px;
-  height: 52px;
-  left: 810px;
-  top: 5442px;
-  background-color: inherit;
-  border: 3px solid #f8f1a8;
-  box-sizing: border-box;
-  border-radius: 15px 15px 15px 0px;
-}
-.buttonproject5 a:hover {
-  color: #f8f1a8;
-}
-.naslovprekt5 {
-  position: absolute;
-  width: 222px;
-  height: 54px;
-  left: 810px;
-  top: 5163px;
-  font-family: Nunito Sans;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 150%;
-  color: #faf4e6;
-}
-
-.paragrafprekt5 {
-  position: absolute;
-  width: 464px;
-  height: 108px;
-  left: 810px;
-  top: 5274px;
-  font-family: Nunito;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 24px;
-  line-height: 36px;
-  color: #faf4e6;
-}
-
 .covercontact {
   position: absolute;
   width: 1220px;
@@ -718,233 +532,53 @@ body {
   font-weight: 800;
   font-size: 48px;
   line-height: 120%;
-  /* identical to box height, or 58px */
+  
 
   letter-spacing: 0.05em;
 
   color: #f2d0f8;
 }
 
-.name {
-  position: absolute;
-  width: 55px;
-  height: 24px;
-  left: 170px;
-  top: 5852px;
-  font-family: Nunito Sans;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 20px;
-  line-height: 120%;
-  color: #f2d0f8;
-}
 
-.nameinput {
-  position: absolute;
-  width: 486px;
-  height: 40px;
-  left: 170px;
-  top: 5882px;
-  background-color: inherit;
-  border: 1px solid #faf4e6;
-  box-sizing: border-box;
-  border-radius: 5px;
-}
-
-.email {
-  position: absolute;
-  width: 54px;
-  height: 24px;
-  left: 170px;
-  top: 5930px;
-
-  font-family: Nunito Sans;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 20px;
-  line-height: 120%;
-  /* identical to box height, or 24px */
-
-  color: #f2d0f8;
-}
-
-.emailinput {
-  position: absolute;
-  width: 486px;
-  height: 40px;
-  left: 170px;
-  top: 5960px;
-  background-color: inherit;
-  border: 1px solid #faf4e6;
-  box-sizing: border-box;
-  border-radius: 5px;
-}
-.message {
-  position: absolute;
-  width: 83px;
-  height: 24px;
-  left: 170px;
-  top: 6008px;
-
-  font-family: Nunito Sans;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 20px;
-  line-height: 120%;
-  color: #f2d0f8;
-}
-.textareamessage {
-  position: absolute;
-  width: 486px;
-  height: 120px;
-  left: 170px;
-  top: 6050px;
-  background-color: inherit;
-  border: 1px solid #faf4e6;
-  box-sizing: border-box;
-  border-radius: 0px 10px 10px 10px;
-  transform: matrix(1, 0, 0, -1, 0, 0);
-}
-
-.buttonsend {
-  position: absolute;
-  width: 486px;
-  height: 49px;
-  left: 170px;
-  top: 6185px;
-
-  border: 1px solid #faf4e6;
-  box-sizing: border-box;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-  border-radius: 0px 10px 10px 10px;
-  background-color: inherit;
-
-  font-family: Nunito Sans;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 20px;
-  line-height: 120%;
-  /* identical to box height, or 24px */
-
-  color: #f2d0f8;
-
-  color: #f2d0f8;
-}
 
 .podatocikocka {
   position: absolute;
-  width: 500px;
-  height: 270px;
-  left: 830px;
-  top: 5966px;
-
-  background: #280e63;
-  border-radius: 30px 0px 0px 30px;
+  width: 1220px;
+  height: 163px;
+  left: 110px;
+  top: 4673px;
+  
 }
 
-.mojemail {
-  position: absolute;
-  width: 85px;
-  height: 29px;
-  left: 909px;
-  top: 6027px;
 
-  font-family: Nunito Sans;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 24px;
-  line-height: 120%;
-  /* identical to box height, or 29px */
 
-  letter-spacing: 0.1em;
-
-  color: #efe57e;
-}
-
-.hotmail {
-  position: absolute;
-  width: 330px;
-  height: 24px;
-  left: 909px;
-  top: 6076px;
-
-  font-family: Nunito Sans;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 20px;
-  line-height: 120%;
-  /* identical to box height, or 24px */
-
-  color: #f2d0f8;
-}
-
-/* .phone {
-  position: absolute;
-  width: 96px;
-  height: 29px;
-  left: 915px;
-  top: 6007px;
-  font-family: Nunito Sans;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 24px;
-  line-height: 120%;
-  letter-spacing: 0.1em;
-  color: #efe57e;
-}
-
-.mojphone {
-  position: absolute;
-  width: 144px;
-  height: 24px;
-  left: 915px;
-  top: 6056px;
-  font-family: Nunito Sans;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 20px;
-  line-height: 120%;
-  color: #f2d0f8; */
-/* } */
-
-.fb {
-  position: absolute;
-  width: 34.73px;
-  height: 35px;
-  left: 908.05px;
-  top: 6140px;
-}
 
 .ld {
   position: absolute;
-  width: 34.73px;
-  height: 35px;
-  left: 964.62px;
-  top: 6140px;
+width: 50px;
+height: 50px;
+left: 650px;
+top: 4744px;
 }
 
-.insta {
-  position: absolute;
-  width: 35px;
-  height: 34.91px;
-  left: 1022px;
-  top: 6140px;
-}
+
+
 
 .be {
   position: absolute;
-  width: 34.73px;
-  height: 35px;
-  left: 1079px;
-  top: 6140px;
+  width: 50px;
+  height: 50px;
+  left: 740px;
+  top: 4744px;
+  
 }
 
 .dd {
   position: absolute;
-  width: 34.73px;
-  height: 35px;
-  left: 1136px;
-  top: 6140px;
+  width: 50px;
+  height: 50px;
+  left: 830px;
+  top: 4744px;
 }
 
 @media screen and (max-width: 700px) {
